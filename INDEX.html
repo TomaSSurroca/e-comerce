@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>LOS GALLEGOS SHOP:</h1>
+    </header>
+
+    <div class="contenedor-productos" id="contenedor-productos">
+        <!-- Aquí se mostrarán los productos -->
+        <div class="producto" id="producto">
+            <img src="assets/f.aceite.jpg" alt="Filtro de aceite">
+            <h3>FILTRO DE ACEITE</h3>
+            <p>Precio: $3500.00</p>
+            <button onclick="agregarAlCarrito('Filtro de Aceite', 3500.00)">Agregar al carrito</button>
+        </div>
+
+        <div class="producto" id="producto">
+            <img src="assets/Filtro-de-aire-vehiculo.jpg" alt="Filtro de aire">
+            <h3>FILTRO DE AIRE</h3>
+            <p>Precio: $4500.00</p>
+            <button onclick="agregarAlCarrito('Filtro de Aire', 4500.00)">Agregar al carrito</button>
+        </div>
+
+        <div class="producto" id="producto">
+            <img src="assets/filtro-de-gasoil.jpg" alt="Filtro de gasoil">
+            <h3>FILTRO DE GASOIL</h3>
+            <p>Precio: $20000.00</p>
+            <button onclick="agregarAlCarrito('Filtro de Gasoil', 20000.00)">Agregar al carrito</button>
+        </div>
+
+        <div class="producto" id="producto">
+            <img src="assets/Filtro-antipolen.webp" alt="Filtro de habitaculo">
+            <h3>FILTRO DE HABITACULO</h3>
+            <p>Precio: $5000.00</p>
+            <button onclick="agregarAlCarrito('Filtro de Habitaculo', 5000.00)">Agregar al carrito</button>
+        </div>
+
+        <div class="producto" id="producto">
+            <img src="assets/f.nafta.webp" alt="Filtro de nafta">
+            <h3>FILTRO DE NAFTA</h3>
+            <p>Precio: $6000.00</p>
+            <button onclick="agregarAlCarrito('Filtro de Nafta', 6000.00)">Agregar al carrito</button>
+        </div>
+
+
+        <div class="producto" id="producto">
+            <img src="assets/f10.webp" alt="bidon de aceite">
+            <h3>BIDON ACEITE MINERAL</h3>
+            <p>Precio: $12000.00</p>
+            <button onclick="agregarAlCarrito('Bidon aceite Mineral', 12000.00)">Agregar al carrito</button>
+        </div>
+
+        <div class="producto" id="producto">
+            <img src="assets/f30.webp" alt="bidon de aceite">
+            <h3>BIDON ACEITE SEMI-SINTETICO</h3>
+            <p>Precio: $16000.00</p>
+            <button onclick="agregarAlCarrito('Bidon aceite Semi-sintetico', 16000.00)">Agregar al carrito</button>
+        </div>
+
+        <div class="producto" id="producto">
+            <img src="assets/f50.png" alt="bidon de aceite">
+            <h3>BIDON ACEITE SINTETICO</h3>
+            <p>Precio: $32000.00</p>
+            <button onclick="agregarAlCarrito('Bidon aceite sintetico', 32000.00)">Agregar al carrito</button>
+        </div>
+
+        <div class="producto" id="producto">
+            <img src="assets/escobillas.webp" alt="escobillas">
+            <h3>ESCOBILLAS</h3>
+            <p>Precio: $14000.00</p>
+            <button onclick="agregarAlCarrito('Escobillas', 14000.00)">Agregar al carrito</button>
+        </div>
+
+        <div class="producto" id="producto">
+            <img src="assets/pinitos.webp" alt="pinitos">
+            <h3>PERFUMES</h3>
+            <p>Precio: $400.00</p>
+            <button onclick="agregarAlCarrito('Perfumes', 400.00)">Agregar al carrito</button>
+        </div>
+
+
+        <!-- Agrega más productos aquí -->
+    </div>
+
+    <div id="carrito" class="carrito">
+        <h2>Carrito de Compras</h2>
+        <ul id="lista-carrito"></ul>
+        <p>Total: $<span id="total-carrito">0.00</span></p>
+        <button onclick="vaciarCarrito()">Vaciar Carrito</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
