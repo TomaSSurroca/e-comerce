@@ -1,0 +1,46 @@
+{
+    "productos": [
+      {
+        "nombre": "FILTRO DE ACEITE",
+        "precio": 3.500
+      },
+      {
+        "nombre": "FILTRO DE AIRE",
+        "precio": 4.500
+      },
+      {
+        "nombre": "FILTRO DE GASOIL",
+        "precio": 20.000
+      },
+      {
+        "nombre": "FILTRO DE HABITACULO",
+        "precio": 5.000
+      },
+      {
+        "nombre": "FILTRO DE NAFTA",
+        "precio": 6.000
+      },
+      {
+        "nombre": "BIDON ACEITE MINERAL",
+        "precio": 12.000
+      },
+      {
+        "nombre": "BIDON ACEITE SEMI-SINTETICO",
+        "precio": 16.000
+      },
+      {
+        "nombre": "BIDON ACEITE SINTETICO",
+        "precio": 32.000
+      },
+      {
+        "nombre": "ESCOBILLAS",
+        "precio": 14.000
+      },
+      {
+        "nombre": "PERFUME",
+        "precio": 4000     
+     }
+    
+    ]
+  }
+  
